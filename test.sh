@@ -2,20 +2,10 @@
 
 declare -i a 
 declare -i b
-declare -i c
 
-a=28
-b=4
-c=$a+$b
+a=33;
+b=36;
 
-echo $c
-
-c="Good"
+c=$a$b
 
 echo $c
-
-d=64;
-e=1
-f=$d+$e
-
-echo $f
